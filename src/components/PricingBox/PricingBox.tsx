@@ -17,6 +17,7 @@ interface modifiers {
 const Container = styled.div<modifiers>`
     position: relative;
     width: 20em;
+    margin: 1rem;
     border-radius: 0.5em;
     background: ${props =>
         props.highlighted ? props.theme.colors.highlightedBox : props.theme.colors.basicBox};
@@ -24,6 +25,7 @@ const Container = styled.div<modifiers>`
         props.highlighted ? props.theme.colors.highlightedText : props.theme.colors.basicText};
     transform: ${props => props.highlighted && 'scale(1.1,1.1)'};
 `;
+
 const PricingNewTag = styled.div`
     position: absolute;
     right: 0;

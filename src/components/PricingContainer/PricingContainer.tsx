@@ -55,6 +55,7 @@ const PricingContainer: React.FC = () => {
             <PricingBoxesContainer>
                 {PricingList.map(pricing => (
                     <PricingBox
+                        key={pricing.name}
                         name={pricing.name}
                         price={pricing.price}
                         priceSub={pricing.priceSub}
