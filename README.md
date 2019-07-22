@@ -8,6 +8,8 @@ This pricing table was built for the sole purpose of becoming more conversant wi
 
 This was inspired by [this daily UI design by Hezy](http://hezy.org/day-044-pricing/)
 
-[pricing table by hezy](./pricing-table-hezy.jpg)
+![pricing table by hezy](./pricing-table-hezy.jpg)
 
-[This is how my implementation looks like](./pricing-table-knada.png)
+## My Implementation
+
+![This is how my implementation looks like](./pricing-table-knada.png)
