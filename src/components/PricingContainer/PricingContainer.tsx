@@ -8,7 +8,7 @@ import PricingList from '../../data';
 const Container = styled.div`
     background: white;
     margin: auto;
-    max-width: 70em;
+    max-width: 75em;
     text-align: center;
     border-radius: 0.75rem;
     overflow: hidden;

@@ -10,7 +10,7 @@ const AppContainer = styled.div`
     background-color: ${props => props.theme.colors.background};
     min-height: 100vh;
     font-family: ${props => props.theme.fonts.Main};
-    padding: 5%;
+    padding: 2%;
 `;
 
 const App: React.FC = () => {
